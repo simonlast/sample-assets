@@ -1,0 +1,46 @@
+# No node_modules anywhere, use package.json + npm install instead.
+node_modules/
+
+# No database files.
+db/
+rethinkdb_data/
+level/
+
+# No logs
+logs/
+
+# No compiled files anywhere.
+build/
+
+# No OSX files.
+.DS_Store*
+
+# No vim files
+*.swp
+*.swo
+
+# No logs
+*.log
+
+# No editor files
+.idea
+.settings
+.vscode
+
+# Save states
+.saved
+
+# Ignore elastic beanstalk app versions
+.elasticbeanstalk/app_versions
+
+# Desktop client build
+dist/
+
+.awcache
+cert.p12
+
+# Redis.
+dump.rdb
+
+# Android
+.gradle
